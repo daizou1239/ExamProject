@@ -6,7 +6,6 @@ public class GameMaster {
         // --- パーティ編成 ---
         List<Character> party = new ArrayList<>();
         party.add(new Hero("勇者", 100, "剣"));
-        party.add(new Wizard("魔法使い", 60, 50));
         party.add(new Wizard("魔法使い", 60, 20));
         party.add(new Thief("盗賊", 70));
 
